@@ -1,4 +1,4 @@
-List of all published tips. See [vim weekly](http://www.vimweekly.com/) for archieves.
+List of all published tips. See [vim weekly](http://www.vimweekly.com/) for archives.
 
 | **Tip** | **Code** | **Description** | **Summary** | **Source** |
 | :------------- | :------- | :-------------- | :---------- | :--------- |
