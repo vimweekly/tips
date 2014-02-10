@@ -15,5 +15,5 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |11|`:%s/\(\s*\n\s*\)\{2,}/\r\r`|collapse multiple blank lines (regardless of quantity) into a single blank line.|collapsing blank lines|[tim](https://twitter.com/gumnos)|
 |12|`:m9`| move the current line that your cursor is to line 9. You can replace the number 9 with any line number|moving lines|[tawheed](http://www.tawheedraheem.com/)|
 |13|`3/joe/e+1`|find 3rd joe cursor set to End of match plus 1 [C]||[zzapper](http://rayninfo.co.uk/vimtips.html)|
-|14|`Ctrl+a`|Increment the number under cursor|Increment number|[stackoverflow-vdboor](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim)|
-|15|`Ctrl+x`|Decrement the number under cursor|Decrement number|[stackoverflow-vdboor](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim)|
+|14|`Ctrl+a`|Increment the number under cursor|Increment number|[stackoverflow-vdboor](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/2559262#2559262)|
+|15|`Ctrl+x`|Decrement the number under cursor|Decrement number|[stackoverflow-vdboor](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/2559262#2559262)|
