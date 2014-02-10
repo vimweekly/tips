@@ -2,15 +2,15 @@ This is a list tips that has yet been published. Feel free and submit pull
 request of your tips.
 
 
-| **Tip** | **Code** | **Description** | **Summary** | **Source** |
+| **Code** | **Description** | **Summary** | **Source** |
 | :------------- | :------- | :-------------- | :---------- | :--------- |
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
