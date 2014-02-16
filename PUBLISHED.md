@@ -1,6 +1,7 @@
 List of all published tips. See [vim weekly](http://www.vimweekly.com/) for archives.
 
-| **Tip** | **Code** | **Description** | **Summary** | **Source** | | :------------- | :------- | :-------------- | :---------- | :--------- |
+| **Tip** | **Code** | **Description** | **Summary** | **Source** | 
+| :------------- | :------- | :-------------- | :---------- | :--------- |
 | 1 | `:undol :undolist`| To view the list of the changes that happened to your doucument try this vim command |List the leafs in the tree of changes | vim manual|
 |2|`:undo {N}`|Revert back to change number {N} where N is a number in your undo list|Revert to change in time|vim manual|
 |3|`:earlier {N}f`|Go to older text state {N} file writes before. When changes were made since the last write :earlier 1f will revert the text to the state when it was written. Otherwise it will go to the write before that. When at the state of the first file write, or when the file was not written, :earlier 1f will go to before the first change.|Going back to an earlier file state|vim manual|
