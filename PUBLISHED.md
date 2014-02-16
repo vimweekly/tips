@@ -13,7 +13,7 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |10|`ma`|make a bookmark named "a" at the current cursor position, note that you can substituite the letter "a" with other letters|Making a bookmark|[csnipp](http://csnipp.com/s/69)|
 |11|`:%s/\(\s*\n\s*\)\{2,}/\r\r`|collapse multiple blank lines (regardless of quantity) into a single blank line.|collapsing blank lines|[tim](https://twitter.com/gumnos)|
 |12|`:m9`| move the current line that your cursor is to line 9. You can replace the number 9 with any line number|moving lines|[tawheed](http://www.tawheedraheem.com/)|
-|13|`/^joe.*fred.*bill/ `|find joe AND fred AND Bill (Joe at start of line)|find from begining of line|[zzapper](http://rayninfo.co.uk/vimtips.html)|
+|13|`3/joe/e+1`|find 3rd joe cursor set to End of match plus 1 [C]||[zzapper](http://rayninfo.co.uk/vimtips.html)|
 |14|`Ctrl+a`|Increment the number under cursor|Increment number|[stackoverflow-vdboor](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/2559262#2559262)|
 |15|`Ctrl+x`|Decrement the number under cursor|Decrement number|[stackoverflow-vdboor](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/2559262#2559262)|
 |16|`:1,10 w outfile.txt`|Saves lines 1 to 10 to the file outfile.txt, you can change the numbers to whatever suits your needs|Saving lines to an external file|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
