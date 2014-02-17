@@ -20,5 +20,5 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |16|`:1,10 w outfile.txt`|Saves lines 1 to 10 to the file outfile.txt, you can change the numbers to whatever suits your needs|Saving lines to an external file|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
 |17|`:1,10 w >> outfile.txt`|Appends lines 1 to 10 to outfile.txt|Appending to end of file|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
 |18|`SHIFT+~`|Invert the case of a letter|Inverting case|[tawheed](http://www.tawheedraheem.com/)|
-|19|`:X`|Encrypting a file by protecting it with a password, after you specify the encryption key you MUST write the file and save it. This is because value of your encryption key is ued when text is written|Encrypt file|[tawheed](http://www.tawheedraheem.com/)|
+|19|`:X`|Encrypting a file by protecting it with a password, after you specify the encryption key you MUST write the file and save it. This is because value of your encryption key is used when text is written|Encrypt file|[tawheed](http://www.tawheedraheem.com/)|
 |20|`:set key=`|To remove the encryption you can set it to empty|Remove encryption key|[tawheed](http://www.tawheedraheem.com/)|
