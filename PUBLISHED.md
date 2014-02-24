@@ -22,3 +22,8 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |18|`~`|Invert the case of a letter|Inverting case|[tawheed](http://www.tawheedraheem.com/)|
 |19|`:X`|Encrypting a file by protecting it with a password, after you specify the encryption key you MUST write the file and save it. This is because value of your encryption key is used when text is written|Encrypt file|[tawheed](http://www.tawheedraheem.com/)|
 |20|`:set key=`|To remove the encryption you can set it to empty|Remove encryption key|[tawheed](http://www.tawheedraheem.com/)|
+|21 | `:ascii  :as[cii]` | print ascii value of character under the cursor| printing ascii characters | vim holy grail|
+|22 | `:badd :bad[d]`| add buffer to the buffer list| adding buffer to buffer list | vim holy grail|
+|23 | `:blast  :bl[ast]`| go to last buffer in the buffer list| going to the last buffer | vim holy grail|
+|24 |`:tabonly` |close all tab pages except the current one |close all tab pages except the current one | vim holy grail |
+|25 | `c12`|change from cursor to column 12 of current line￼|changing from current cursor |[tawheed](http://www.tawheedraheem.com/) |
