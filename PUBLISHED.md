@@ -30,5 +30,5 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |26|`:Sex`|Split window and open integrated file explorer|open file explorer |[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
 |27|`:r cool_file.rb`|Insert the content of cool_file.rb in buffer|Inserting contents of file|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
 |28|`:23r cool_file.rb`|Insert the contents of cool_file.rb in buffer after line 23|Inserting contents of file at specific point|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
-|29|`g~g~`|Switch case of current line|Switching case of current line|[tawheed](http://www.tawheedraheem.com/)
+|29|`g~~`|Switch case of current line|Switching case of current line|[@gumnos](https://twitter.com/gumnos)
 |30|`:sh :sh[ell]`|Start shell from vim, type exit to get back to vim |Starting a shell |[tawheed](http://www.tawheedraheem.com/)|
