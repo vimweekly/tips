@@ -32,3 +32,8 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |28|`:23r cool_file.rb`|Insert the contents of cool_file.rb in buffer after line 23|Inserting contents of file at specific point|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
 |29|`g~~`|Switch case of current line|Switching case of current line|[@gumnos](https://twitter.com/gumnos)
 |30|`:sh :sh[ell]`|Start shell from vim, type exit to get back to vim |Starting a shell |[tawheed](http://www.tawheedraheem.com/)|
+|31|`:reg`|Display the contents of all numbered and named registers | displaying contents of register.|[tawheed](http://www.tawheedraheem.com/)|
+|32|`"jy`| Yank text into register j - you can use any of these registers {a-zA-Z0-9.%#:-"}| yanking text to named register |[tawheed](http://www.tawheedraheem.com/)|
+|33|`:let @j = "puts 'some really cool string'"`| Save the text "puts 'some really cool string'" into rejister j - you can use any of these registers {a-zA-Z0-9.%#:-"}| saving text to named register |[tawheed](http://www.tawheedraheem.com/)|
+|34|`:let @j .= "more cool string"`| append the text "more cool string" to rejister j | append text to register |[tawheed](http://www.tawheedraheem.com/)|
+|35|`"jp`| Paste content from register j|pasting contents from register |[tawheed](http://www.tawheedraheem.com/)|
