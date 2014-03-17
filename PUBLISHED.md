@@ -40,5 +40,5 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |36|`:%s#<[^>]\+>##g`|Delete HTML tags but keeps text|Delete HTML tags but keeps text|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
 |37|`%s/^\(.*\)\n\1$/\1/`|Delete lines which appears twice|Delete lines which appears twice|[catswhocode](http://www.catswhocode.com/blog/100-vim-commands-every-programmer-should-know)|
 |38|`vim -p fred.php joe.php`|Open the files in tabs|Opening multiple files in tabs|[zzapper](http://rayninfo.co.uk/vimtips.html)|
-|39|`s/\v<(.)(\w*)/\u\1\L\2/g`|To turn one line into title caps, make every first letter of a word uppercase|Change case of words in a sentence|[vim maual](http://vimdoc.sourceforge.net/htmldoc/change.html)|
+|39|`:s/\v<(.)(\w*)/\u\1\L\2/g`|To turn one line into title caps, make every first letter of a word uppercase|Change case of words in a sentence|[vim maual](http://vimdoc.sourceforge.net/htmldoc/change.html)|
 |40|`g??`|Rot13 encode current line - Rotate each character 13 places|Rot13 encode current line|[vim maual](http://vimdoc.sourceforge.net/htmldoc/change.html)|
