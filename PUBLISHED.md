@@ -42,3 +42,8 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |38|`vim -p fred.php joe.php`|Open the files in tabs|Opening multiple files in tabs|[zzapper](http://rayninfo.co.uk/vimtips.html)|
 |39|`:s/\v<(.)(\w*)/\u\1\L\2/g`|To turn one line into title caps, make every first letter of a word uppercase|Change case of words in a sentence|[vim maual](http://vimdoc.sourceforge.net/htmldoc/change.html)|
 |40|`g??`|Rot13 encode current line - Rotate each character 13 places|Rot13 encode current line|[vim maual](http://vimdoc.sourceforge.net/htmldoc/change.html)|
+|41|`:1,13s/^/#/g`|Put the # in begining of lines 1 to 13, FYI - '#' is a comment in ruby so feel free to use whatever signifies a comment in your favourite language|Inserting in the begining of lines|[tawheed](http://www.tawheedraheem.com/)|
+|42|`:%s/\<foo\>/bar/gc`|Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation.|Replacing whole words|[vim wikia - Tip#31](http://vim.wikia.com/wiki/Search_and_replace)|
+|43|`:%s/foo/\=@a/g`|Replace each occurrence of 'foo' with the contents of register 'a'.|Replace with contents of a register|[vim wikia - Tip#31](http://vim.wikia.com/wiki/Search_and_replace)|
+|44|`:%s/\<foo\>//g`|On each line, delete all occurrences of the whole word "foo".|Deleting occurance in lines|[vim wikia - Tip#31](http://vim.wikia.com/wiki/Search_and_replace)|
+|45|`:1,13s/^\(\w\)/\u\1/`|If the first character on lines 1 to 13 is lowercase, switch it to uppercase|Conditinally change case of line|[vim wikia - Tip#31](http://vim.wikia.com/wiki/Search_and_replace)|
