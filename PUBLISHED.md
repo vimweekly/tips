@@ -47,7 +47,7 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |43|`:%s/foo/\=@a/g`|Replace each occurrence of 'foo' with the contents of register 'a'.|Replace with contents of a register|[vim wikia - Tip#31](http://vim.wikia.com/wiki/Search_and_replace)|
 |44|`:%s/\<foo\>//g`|On each line, delete all occurrences of the whole word "foo".|Deleting occurance in lines|[vim wikia - Tip#31](http://vim.wikia.com/wiki/Search_and_replace)|
 |45|`:1,13s/^\(\w\)/\u\1/`|If the first character on lines 1 to 13 is lowercase, switch it to uppercase|Conditinally change case of line|[vim wikia - Tip#31](http://vim.wikia.com/wiki/Search_and_replace)|
-|46|`vat`|Jump between XML/HTML opening and closing tags|jumping between XML/HTML tags|[Ian Liu](https://plus.google.com/u/3/+IanLiuRodrigues/posts)|
+|46|`vat`|Select between XML/HTML opening and closing tags|jumping between XML/HTML tags|[Ian Liu](https://plus.google.com/u/3/+IanLiuRodrigues/posts)|
 |47|`SHIFT+O`|Jump between selection extremities while on visual selection|jump between extremities of XML/HTML tags|[Ian Liu](https://plus.google.com/u/3/+IanLiuRodrigues/posts)|
 |48|`:%s=  *$==`|Delete end of lines that is blank|Delete end of line that is blank|[zzapper](http://rayninfo.co.uk/vimtips.html)|
 |49|`:e $MYVIMRC`|Open your vimrc|open vimrc|[zzapper](http://rayninfo.co.uk/vimtips.html)|
