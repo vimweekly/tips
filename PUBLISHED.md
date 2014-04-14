@@ -52,3 +52,9 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |48|`:%s=  *$==`|Delete end of lines that is blank|Delete end of line that is blank|[zzapper](http://rayninfo.co.uk/vimtips.html)|
 |49|`:e $MYVIMRC`|Open your vimrc|open vimrc|[zzapper](http://rayninfo.co.uk/vimtips.html)|
 |50|`:so $MYVIMRC`|Source your vimrc. Applying changes to current vim session without having to restart|Source vimrc|[tawheed](http://www.tawheedraheem.com/)|
+|51|`%s,//\(.*\),/*\1 */,`|Change all comments that have //-this style to /* */|Change comment style|[vim wikia - Tip#1010](http://vim.wikia.com/wiki/Change_C%2B%2B_comments_to_C_comments)|
+|52|`:command! -nargs=+ Evaluate :perl VIM::Msg(eval{<args>})`|Calculate and evaluate code using perl in vim|Calculate and evaluate code|[vim wikia - Tip#1359](http://vim.wikia.com/wiki/Calculator_and_code_evaluation_using_Perl)|
+|52|`:command! -nargs=+ Evaluate :perl VIM::Msg(eval{<args>})`|Calculate and evaluate code using perl in vim|Calculate and evaluate code|[vim wikia - Tip#1359](http://vim.wikia.com/wiki/Calculator_and_code_evaluation_using_Perl)|
+|53|`:Evaluate 1+2`|Add two numbers based on tip 52|Add two numbers|[vim wikia - Tip#1359](http://vim.wikia.com/wiki/Calculator_and_code_evaluation_using_Perl)|
+|54|`:Evaluate $a=sin(0);$a==sin(0)?"equal":"not equal"`|Testing a boolean logic based on tip 52|Testing out boolean logic|[vim wikia - Tip#1359](http://vim.wikia.com/wiki/Calculator_and_code_evaluation_using_Perl)|
+|55|`map <F7> <Esc>I<a href="<Esc>A"><Esc>gJA</a><Esc>`|Convert two lines (URL then TITLE) to one line - Given two lines 'http://www.example.com' and 'The Example Site' - This mapping will turn the two lines into an html link and href tag|Make an HTML anchor and href tag  Edit|[vim wikia - Tip#1178](http://vim.wikia.com/wiki/Make_an_HTML_anchor_and_href_tag)|
