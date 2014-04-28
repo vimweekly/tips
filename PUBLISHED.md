@@ -62,4 +62,4 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |57|`:%s/<\([^>]*\)>/<\L\1>/g`|Changing all HTML tags to lowercase|Changing all HTML tags to lower case|[vim wikia - Tip#1513](http://vim.wikia.com/wiki/Changing_all_HTML_tags_to_lowercase)|
 |58|`:9,s/\(\w*\)/(\1)/g`|If line 9 has the words `fish dog cat mouse`, this command surrounds all the words with open and closing parens|Surround words with parentheses|[vimgolf](http://www.vimgolf.com/challenges/5192f96ad8df110002000002)|
 |59|`:%s/^/\=line('.').'. '`|Number each all the lines in current file. Line 1 to line n|Number List|[vimgolf](http://www.vimgolf.com/challenges/4d716c76919202611400002b)|
-|60|`:s/.\{,69\};\s*\|.\{,69\}\s\+/&\r/g`|break lines at 70 chars, if possible after a ; |break lines at 70 chars, if possible after a ;|[zzapper](http://rayninfo.co.uk/vimtips.html)|
+|60|`:s/.\{,69\};\s*\.\{,69\}\s\+/&\r/g`|break lines at 70 chars, if possible after a ; |break lines at 70 chars, if possible after a ;|[zzapper](http://rayninfo.co.uk/vimtips.html)|
