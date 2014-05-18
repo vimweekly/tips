@@ -63,3 +63,8 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |58|`:9,s/\(\w*\)/(\1)/g`|If line 9 has the words `fish dog cat mouse`, this command surrounds all the words with open and closing parens|Surround words with parentheses|[vimgolf](http://www.vimgolf.com/challenges/5192f96ad8df110002000002)|
 |59|`:%s/^/\=line('.').'. '`|Number each all the lines in current file. Line 1 to line n|Number List|[vimgolf](http://www.vimgolf.com/challenges/4d716c76919202611400002b)|
 |60|`:s/.\{,69\};\s*\.\{,69\}\s\+/&\r/g`|break lines at 70 chars, if possible after a ; |break lines at 70 chars, if possible after a ;|[zzapper](http://rayninfo.co.uk/vimtips.html)|
+|61|`nmap <silent> <leader>ch :exec 'silent !open -a "Google Chrome" % &'`|Open up current file in chrome - To invoke this mapping use leaderKey + c + h + Enter|Open current file in chrome|[shanestillwell](https://github.com/shanestillwell/dotfiles/blob/master/vimrc)|
+|62|`au BufLeave,FocusLost * silent! update`|Auto save contents of a buffer when you lose focus|Autosave buffer|[Jeff](https://plus.google.com/+JeffSchwartz/posts/eNu5MV9NH5m)|
+|63|`:'a,'bs/somestring//gn`|Count the number of occurances of a somestring in a file|Counting occurance of word|[zzapper](http://rayninfo.co.uk/vimtips.html)|
+|64|`:g/someWord/z#.1\echo"=========="`|Display a fancy output based on your search of someWord|Display search beautifully|[brokentrain](http://gavin.brokentrain.net/projects/vimtips/vimtips.pdf)|
+|65|`:g/^/m0`|Reverse the contents of a file|Reverse the contents of a    file|[brokentrain](http://gavin.brokentrain.net/projects/vimtips/vimtips.pdf)|
