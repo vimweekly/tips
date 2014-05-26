@@ -68,3 +68,8 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |63|`:'a,'bs/somestring//gn`|Count the number of occurances of a somestring in a file|Counting occurance of word|[zzapper](http://rayninfo.co.uk/vimtips.html)|
 |64|`:g/someWord/z#.1\echo"=========="`|Display a fancy output based on your search of someWord|Display search beautifully|[brokentrain](http://gavin.brokentrain.net/projects/vimtips/vimtips.pdf)|
 |65|`:g/^/m0`|Reverse the contents of a file|Reverse the contents of a    file|[brokentrain](http://gavin.brokentrain.net/projects/vimtips/vimtips.pdf)|
+|66|`:lcd`|It words like !cd but only changes the cureent directory of current window|change directory of current window|vim manual|
+|67|`:s#_\(\l\)#\u\1#g`|Convert snake_case to camelCase on a given line|Convert snake_case to camelCase|[Vim wikia - Tip #1602](http://vim.wikia.com/wiki/Converting_variables_to_or_from_camel_case)|
+|68|`:Tohtml`|Convert entire buffer to html|Convert buffer to html|vim manaul|
+|69|`let &colorcolumn=join(range(82, 255), ',')`|Enforce 82 column margin|Enforce 82 column|forgot where I found it|
+|70|`:.! date`|Insert date on current line|Insert date on current line|[Stackoverflow](http://stackoverflow.com/questions/726894/what-are-the-dark-corners-of-vim-your-mom-never-told-you-about)|
