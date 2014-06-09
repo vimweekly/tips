@@ -73,3 +73,8 @@ List of all published tips. See [vim weekly](http://www.vimweekly.com/) for arch
 |68|`:Tohtml`|Convert entire buffer to html|Convert buffer to html|vim manaul|
 |69|`let &colorcolumn=join(range(82, 255), ',')`|Enforce 82 column margin|Enforce 82 column|forgot where I found it|
 |70|`:.! date`|Insert date on current line|Insert date on current line|[Stackoverflow](http://stackoverflow.com/questions/726894/what-are-the-dark-corners-of-vim-your-mom-never-told-you-about)|
+|71|`map h1 yypVr=o`|When editting plain text we sometimes need to make a given line bold, vim on the other hand does not provide a way of achieving this effect. With this mapping we put "============" underneath a line to signify a heading|Marking a line as headline|Hacking Vim|
+|72|`map h1 yypVr-o`|Same concept as tip#71 but this mapping is used to indicate a sub-heading by placing "-----------" underneath a given line|Marking a line as sub headline|Hacking Vim|
+|73|`:jumps`|Vim keeps track of all the places that our cursor has been. If you make the cursor "jump", the position of the cursor before the jump is remembered. See `:help jump` for more information. Use the command below to show your jumps|Showing jumps in vim|vim-manual|
+|74|`CTRL-O`|Going to older cursor position in jump list - Think of this like clicking on the back button on your browser|Going to older cursor position|vim-manual|
+|75|`CTRL-I`|Going to new cursor position in jump list Think of this like clicking on the forward button on your browser|Going to newer cursor position|vim-manual|
